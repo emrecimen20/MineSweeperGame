@@ -1,7 +1,7 @@
-***MINESWEEPER GAME***
+MINESWEEPER GAME
 It's a thought-provoking game where the user enters coordinates and avoids picking mines.
 
-***Gameplay :***
+Gameplay :
 1-First, the user determines the size of the game board. Can create a board of at least 2x2.
 
 2-Enters the coordinates of a cell from the matrix,If there is a mine in this cell, the player loses the game.
@@ -13,11 +13,11 @@ It's a thought-provoking game where the user enters coordinates and avoids picki
 5-If the user opens all safe cells without stepping on any mines, the user wins the game.
 
 
-***Installation***
-***User runs main method to play the game***
+Installation
+User runs main method to play the game.
 
 
-***LOSİNG SITUATION***
+LOSİNG SITUATION
 Mayınların Konumu
 * - - 
 - - * 
@@ -68,7 +68,7 @@ Sütun Giriniz : 2
 Game Over!!
 ===========================
 
-***WIN SITUATION***
+WIN SITUATION
 Mayınların Konumu
 - - - 
 - * - 
