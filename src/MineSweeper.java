@@ -101,6 +101,9 @@ public class MineSweeper {
 
     public void play(){
         Scanner input=new Scanner(System.in);
+        System.out.println("Mines Place :");
+        printMineBoard();
+        System.out.println("==================");
         printBoard(gameBoard);
         while (nonMine>0){
             System.out.print("Enter row :");
