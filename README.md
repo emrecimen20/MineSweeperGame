@@ -19,6 +19,6 @@ Minesweeper is a classic single-player puzzle game where players attempt to unco
 
 ## Controls
 
-- Enter coordinates using the keyboard to select cells
+- Enter coordinates using the keyboard to select cells.
   
 
