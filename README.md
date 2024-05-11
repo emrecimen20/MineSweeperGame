@@ -1,123 +1,24 @@
-MINESWEEPER GAME
-It's a thought-provoking game where the user enters coordinates and avoids picking mines.
+# Minesweeper Game
 
-Gameplay :
-1-First, the user determines the size of the game board. Can create a board of at least 2x2.
+## About the Game
 
-2-Enters the coordinates of a cell from the matrix,If there is a mine in this cell, the player loses the game.
+Minesweeper is a classic single-player puzzle game where players attempt to uncover mines hidden on a game board. Players click on square tiles on the board to reveal non-mine tiles. If a mine is clicked, the game ends.
 
-3-If there are no mines in the coordinates entered, the user has opened the safe cell.
+## How to Play
 
-4-In the safe cell, there is information about how many mines are around.
+- The game begins with a game board consisting of square tiles of certain dimensions.
+- Each square tile on the board either contains a mine or is empty. The objective for the player is to uncover all non-mine tiles to complete the game.
+- When a player clicks on a tile, if there is a mine underneath, the player loses the game. Otherwise, the tile is revealed, and a number indicating how many mines are adjacent to it is displayed.
+- To win the game, the player must uncover all non-mine tiles.
 
-5-If the user opens all safe cells without stepping on any mines, the user wins the game.
+## Installation
 
+1. JAVA must be installed to run this game.
+3. Navigate to the directory containing the game files in your console or terminal.
+4. Start the game by running the main file.
 
-Installation
-User runs main method to play the game.
+## Controls
 
+- Enter coordinates using the keyboard to select cells
+  
 
-LOSİNG SITUATION
-Mayınların Konumu
-* - - 
-- - * 
-- - - 
-===========================
-Mayın Tarlası Oyuna Hoşgeldiniz !
-- - - 
-- - - 
-- - - 
-Satır Giriniz : 0
-Sütun Giriniz : 1
-===========================
-- 2 - 
-- - - 
-- - - 
-Satır Giriniz : 2
-Sütun Giriniz : 0
-===========================
-- 2 - 
-- - - 
-0 - - 
-Satır Giriniz : 0
-Sütun Giriniz : 2
-===========================
-- 2 1 
-- - - 
-0 - - 
-Satır Giriniz : 1
-Sütun Giriniz : 0
-===========================
-- 2 1 
-1 - - 
-0 - - 
-Satır Giriniz : 2
-Sütun Giriniz : 1
-===========================
-- 2 1 
-1 - - 
-0 1 - 
-Satır Giriniz : 2
-Sütun Giriniz : 2
-===========================
-- 2 1 
-1 - - 
-0 1 1 
-Satır Giriniz : 1
-Sütun Giriniz : 2
-Game Over!!
-===========================
-
-WIN SITUATION
-Mayınların Konumu
-- - - 
-- * - 
-- * - 
-===========================
-Mayın Tarlası Oyuna Hoşgeldiniz !
-- - - 
-- - - 
-- - - 
-Satır Giriniz : 0
-Sütun Giriniz : 0
-===========================
-1 - - 
-- - - 
-- - - 
-Satır Giriniz : 0
-Sütun Giriniz : 1
-===========================
-1 1 - 
-- - - 
-- - - 
-Satır Giriniz : 0
-Sütun Giriniz : 2
-===========================
-1 1 1 
-- - - 
-- - - 
-Satır Giriniz : 1
-Sütun Giriniz : 0
-===========================
-1 1 1 
-2 - - 
-- - - 
-Satır Giriniz : 2
-Sütun Giriniz : 0
-===========================
-1 1 1 
-2 - - 
-2 - - 
-Satır Giriniz : 1
-Sütun Giriniz : 2
-===========================
-1 1 1 
-2 - 2 
-2 - - 
-Satır Giriniz : 2
-Sütun Giriniz : 2
-Oyunu Kazandınız !
-1 1 1 
-2 - 2 
-2 - 2 
-===========================
